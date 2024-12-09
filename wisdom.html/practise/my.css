@@ -1,0 +1,87 @@
+.h4{
+    border-radius: 8px;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 1px;
+    background: blue;
+    width: 110px;
+    height: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.him{
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgb(238, 94, 180);
+    border-width: 1px;
+    background: rgb(1, 241, 149);
+    width: 110px;
+    height: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.re{
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgb(66, 63, 240);
+    border-width: 1px;
+    background: rgb(235, 115, 195);
+    width: 70px;
+    height: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.me{
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgb(245, 80, 80);
+    border-width: 1px;
+    background: rgb(171, 241, 7);
+    width: 110px;
+    height: -40px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 140px;
+    left: 117px;
+}
+.mee{
+    border-radius: 8px;
+    border-style: groove;
+    border-color: #f7f4f2;
+    border-width: 1px;
+    background: rgb(66, 2, 29);
+    width: 130px;
+    height: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 140px;
+    left: 117px;
+}
+.me2{
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgb(228, 234, 240);
+    border-width: 1px;
+    background: rgb(153, 4, 4);
+    width: 70px;
+    height: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 140px;
+    left: 77px;
+}
+#myy{
+    font-size: large;
+}

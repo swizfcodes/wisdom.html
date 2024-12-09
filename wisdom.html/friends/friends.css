@@ -1,0 +1,268 @@
+.overallcontainer{
+    display: flex;
+    margin: 100px;      
+    gap: 20px;
+}
+
+
+
+
+
+.overallcontainer1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+}
+.container1{
+    display: flex;
+   gap: 20px;
+}
+
+
+.clarkcontainer{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.clarkcontainer p{
+    color: rgb(252, 250, 250);
+    font-weight: bolder;
+    font-size: 15px;
+ 
+}
+
+.clarkcontainer span{
+    color: rgb(248, 196, 248);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    
+    
+    
+    
+}
+.container1 img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.clkbuttondiv button{
+    width: 85px;
+    height: 40px;
+    color: rgb(95, 65, 3);
+    border-radius: 10px;
+    background: rgb(49, 243, 49);
+    border-color: bisque;
+    font-weight: bolder;
+}
+
+.clkbuttondiv button:hover{
+    background:rgb(2, 59, 57);
+    width: 90px;
+    height: 43px;
+    cursor: grab;
+}
+
+.clkbuttondiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.sarahcontainer{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.sarahcontainer p{
+    color: rgb(252, 250, 250);
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.sarahcontainer span{
+    color: rgb(241, 241, 127);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+}
+
+.antcontainer{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.antcontainer p{
+    color: rgb(252, 250, 250);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.antcontainer span{
+    color: rgb(211, 178, 241);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    background: antiquewhite;
+    justify-content: space-between;
+    gap: 1px;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+
+.formbutton{
+    display: flex;
+    justify-content: flex-end;
+}
+.formbutton button{
+    width: 287px;
+    height: 35px;
+    color: rgb(95, 65, 3);
+    border-radius: 8px;
+    background: rgb(49, 243, 49);
+    border-color: bisque;
+    font-weight: bolder;
+}
+
+.formbutton button:hover{
+    background:rgb(2, 59, 57);
+    width: 295px;
+    height: 38px;
+    cursor: grab;
+}
+
+.formdiv form{
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.formdiv input{
+    background: white;
+    width: 287px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.addfrn button{
+    width: 150px;
+    height: 35px;
+    color: rgb(95, 65, 3);
+    border-radius: 8px;
+    background: rgb(49, 243, 49);
+    border-color: bisque;
+    font-weight: bolder;
+}
+
+.addfrn button:hover{
+    background:rgb(2, 59, 57);
+    width: 170px;
+    height: 38px;
+    cursor: grab;
+}
+
+.overallcontainer2{
+    background: antiquewhite;
+    width: 500px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.container2{
+    margin: 23px;
+}
+
+.container2 h2{
+    font-weight: bolder;
+}
+
+.form2{
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form2 form{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 16px;
+    color: darkslategrey;
+}
+
+.form2 input{
+    background: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.form2 select{
+    background: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid rgb(155, 132, 4) 1px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.form2 select:hover{
+    background:rgb(163, 245, 242);
+    width: 210px;
+    height: 38px;
+    cursor: grab;
+}
+
+
+.form2btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form2btn button{
+    width: 200px;
+    height: 35px;
+    color: rgb(95, 65, 3);
+    border-radius: 8px;
+    background: rgb(49, 243, 49);
+    border-color: bisque;
+    font-weight: bolder;
+}
+
+.form2btn button:hover{
+    background:rgb(2, 59, 57);
+    width: 210px;
+    height: 38px;
+    cursor: grab;
+}
+
