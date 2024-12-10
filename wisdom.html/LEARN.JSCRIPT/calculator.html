@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+        color: black;
+    }
+
+    .overalldiv{
+        width: 300px;
+        border: solid 5px rgb(244, 114, 114);   
+        display: flex;
+        flex-direction: column; 
+        gap: 2px; 
+        border-radius: 8px;
+        
+    }
+
+    .displaydiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    .displaydiv input{
+        width: 290px;
+        height: 55px;
+        border: solid 2px whitesmoke;
+        border-radius: 8px;
+    }
+
+    .operatordiv{
+        width: 296px;
+        height: 45px;
+        border: solid 2px whitesmoke;
+        border-radius: 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .operatordiv button{
+        height: 40px;
+        width: 50px;
+        font-size: 30px;
+    }
+
+    .buttonnuminputdiv{
+        height: 250px;
+        width: 289px;
+        display: flex;     
+        gap: 30px; 
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .buttonnuminputdiv button{
+     height: 30px;
+     width: 50px;
+        
+    }
+</style>
+<body>
+    <div class="overalldiv" >
+        <div class="displaydiv">
+            <input id="calc" type="text" name="answer"></input>
+        </div>
+            <div class="operatordiv">
+                <button  id="click+">+</button>
+                <button  id="click-">-</button>
+                <button  id="click*">*</button>
+                <button  id="click/">/</button>
+                <button  id="click=">=</button>
+
+            </div>
+                <div class="buttonnuminputdiv">
+                    <button  id="click1" value="1">1</button>
+                    <button  id="click2">2</button>
+                    <button  id="click3">3</button>
+                    <button  id="click4">4</button>
+                    <button  id="click5">5</button>
+                    <button  id="click6">6</button>
+                    <button  id="click7">7</button>
+                    <button  id="click8">8</button>
+                    <button  id="click9">9</button>
+                    <button  id="click0">0</button>
+                    <button  id="clr">clear</button>
+                </div>
+
+                
+            
+        
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
