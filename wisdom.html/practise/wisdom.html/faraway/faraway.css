@@ -1,0 +1,147 @@
+.yellow{
+    width: 992px;
+    height: 100px;
+    background: rgb(219, 154, 32);
+    border: solid yellow 4px;
+}
+
+.brown{
+    width: 999.9px;
+    height: 10px;
+    background: darkorange;
+    position: relative;
+    bottom: 192px;
+    right: 4px;
+}
+
+.green{
+    width: 992px;
+    height: 60px;
+    background: chocolate;
+    border: solid green 4px;
+    position: relative;
+    bottom: 197px;
+    right: 4.5px;
+}
+
+.blue{
+    width: 991px;
+    height: 200px;
+    border: solid blue 4px;
+    position: relative;
+    bottom: 192px;
+    right: 4px;
+}
+
+.red{
+    width: 993px;
+    height: 52px;
+    background: rgb(8, 241, 241);
+    border: solid rgb(204, 2, 2) 4px;
+    position: relative;
+    bottom: 190px;
+    right: 4.5px;
+}
+
+ 
+
+
+.h3{
+    color: purple;
+    font-family: monospace;
+    position: relative;
+    left: 80px;
+    bottom: 75px;
+    font-size: 22px;
+}
+
+.h33{
+    color: blue;
+    margin: 20px;
+    position: relative;
+    bottom: 30px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.dv{
+    width: 190px;
+    height: 20px;
+    background: rgb(252, 246, 168);
+    border-radius: 15px;
+    position: relative;
+    top: 110px;
+    left: 300px;
+}
+
+.d{
+    width: 110px;
+    height: 20px;
+    background: rgb(252, 246, 168);
+    border-radius: 15px;
+    position: relative;
+    top: 80px;
+    left: 500px;
+}
+
+.what{
+    position: relative; 
+    left: 200px;
+    bottom: 110px;
+    
+}
+
+.one{
+    width: 60px;
+    height: 20px;
+    background: rgb(252, 246, 168);
+    border-radius: 15px;
+    position: relative;
+    bottom: 191px;
+    left: 500px;
+}
+
+.on{
+    width: 200px;
+    height: 20px;
+    background: rgb(252, 246, 168);
+    border-radius: 15px;
+    position: relative;
+    bottom: 150px;
+    left: 570px;
+}
+
+.add{
+    width: 60px;
+    height: 20px;
+    background: rgb(35, 250, 239);
+    border-radius: 15px;
+    position: relative;
+    bottom: 170px;
+    left: 775px;
+}
+
+.p{
+    border: solid purple 3px;
+    width: 150px;
+    height: 20px;
+    position: relative;
+    left: 80px;
+    
+}
+
+.pp{
+    display: inline-block;
+}
+
+.px{
+    display: inline-flex;
+    position: relative;
+    bottom: 26px;
+}
+
+.it{
+    position: relative;
+    top: 100px;
+}
+
