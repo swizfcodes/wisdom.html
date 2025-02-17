@@ -60,6 +60,21 @@ addEventListener("keydown", function(event) {
   }
 });
 
+
+
+//more DOM manipulations
+
+
+let userName = document.querySelector('.welcome-name');
+userName = 'Wizzy'
+
+document.getElementById('welcome').innerHTML =
+`Welcome ${userName}`;
+
+
+
+
+
   
   
 

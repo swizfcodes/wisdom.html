@@ -1,7 +1,7 @@
 //JavaScript for calculator
 
 //This code helps us 
-const display = document.getElementById('display');
+let display = document.getElementById('display');
 
 function appendToDisplay(input){
     display.value += input;
@@ -20,9 +20,10 @@ function calculate(){
 
 
 display.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-        calculate();
+    if (event.key === "backspace") {
+        clearDisplay();
     }
 });
+
 
 
